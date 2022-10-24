@@ -10,12 +10,11 @@ import method as md
 
 plt.ion()
 style.use('fivethirtyeight')
-
 # Global variables import from globalVariables files
 bot=gv.bot
 beacon=gv.beacon
-pathX=[]
-pathY=[]
+pathX=gv.X
+pathY=gv.Y
 
 # main function of the execution.
 def main():
@@ -39,7 +38,7 @@ def main():
 
         plt.xlim(0,50)
         plt.ylim(0,50)
-        
+
         plt.show()
         plt.pause(1)
 
