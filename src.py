@@ -10,11 +10,15 @@ import method as md
 
 plt.ion()
 style.use('fivethirtyeight')
+
+
 # Global variables import from globalVariables files
 bot=gv.bot
 beacon=gv.beacon
 pathX=gv.X
 pathY=gv.Y
+
+
 
 # main function of the execution.
 def main():
